@@ -105,7 +105,7 @@ def timSort(arr):
 # Driver program to test above function
 if __name__ == "__main__":
 
-    dosya = open("data.txt", "r")
+    dosya = open("ourData.txt", "r")
     lst = dosya.read()
     lst = lst.split(",")
     for i in range(len(lst)):
