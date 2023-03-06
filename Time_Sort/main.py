@@ -1,4 +1,4 @@
-# Python3 program to perform basic timSort
+# Perform basic timSort
 MIN_MERGE = 32
 
 
