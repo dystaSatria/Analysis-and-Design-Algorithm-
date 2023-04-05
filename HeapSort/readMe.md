@@ -25,7 +25,7 @@ int main() {
 After that we make function the heapSort to performs the Heap Sort algorithm on the array to sort it in ascending order.
 We make 2 loops :
 * First loop is for initializes the heap by calling the heapify function on all non-leaf nodes of the heap. It starts from the last non-leaf node and goes up to the root node. What is the ```non-leaf nodes```? 
-Non-leaf nodes is 
+Lets say we have it
 ```
       10
      /  \
@@ -35,6 +35,8 @@ Non-leaf nodes is
 
 
 ```
+Non-leaf nodes are ```10 , 8```
+Nodes are ``` 3, 9, 12 ```
 
 * 
 
