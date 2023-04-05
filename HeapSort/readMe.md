@@ -21,3 +21,5 @@ int main() {
 }
 
 ```
+
+After that we make function the heapSort to performs
