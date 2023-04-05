@@ -22,4 +22,6 @@ int main() {
 
 ```
 
-After that we make function the heapSort to performs
+After that we make function the heapSort to performs the Heap Sort algorithm on the array to sort it in ascending order.
+
+
