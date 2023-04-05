@@ -48,7 +48,7 @@ int main() {
    	
    	printf("The original array :");
    	for(int i=0; i < n; i++)
-   		printf("%d ",arr[i]);//its make like "12,11,blablabla" if u just %d it's just like "1211blabla"
+   		printf("%d ",arr[i]);
 	printf("\n");   
 	
 	
