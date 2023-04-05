@@ -33,7 +33,7 @@ void heapSort(int arr[], int n){
 		heapify(arr, n, i); 
 	
 	for (int i = n - 1; i >= 0; i--){
-		int swap = arr[0];//make temp varieble to swaps
+		int swap = arr[0];
 		arr[0] = arr[i];
 		arr[i] = swap;
 		heapify(arr, n , i);
