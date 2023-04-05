@@ -1,4 +1,4 @@
-# Explanation 
+# Explanation ( Descending Heap Sort  )
 
 Lets make main Function in C 
 ```cpp
