@@ -57,6 +57,11 @@ for (int i = n - 1; i >= 0; i--){
 	}
 
 ```
+*tips extra for descending pattern:
+```cpp
+
+```
+
 So the final heapSort function is 
 ```cpp
 void heapSort(int arr[], int n){
@@ -73,4 +78,5 @@ void heapSort(int arr[], int n){
 	
 }
 ```
+
 
