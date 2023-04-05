@@ -46,11 +46,31 @@ First loop code :
 for (int i= n/2 -1 ;i >=0;i-- )
 		heapify(arr, n, i) 
 ```
-* Second loop swaps the root node with the last element of the heap and then calls heapify on the remaining heap to restore the heap property. The loop starts from the end of the array and goes down to the first element, ensuring that the largest element is moved to the end of the array in each iteration. The temporary variable temp is used to swap elements during the sorting process. In each iteration of the second loop, the largest element is moved to the end of the array and the heap size is reduced by 1, as the last element is already sorted.
+* Second loop swaps the root node with the last element of the heap and then calls heapify on the remaining heap to restore the heap property. The loop starts from the end of the array and goes down to the first element, ensuring that the largest element is moved to the end of the array in each iteration. The temporary variable ```swap``` is used to swap elements during the sorting process. In each iteration of the second loop, the largest element is moved to the end of the array and the heap size is reduced by 1, as the last element is already sorted.
 
 ```cpp
-
+for (int i = n - 1; i >= 0; i--){
+		int swap = arr[0];//make temp varieble to swaps
+		arr[0] = arr[i];
+		arr[i] = swap
+		heapify(arr,n,i)
+	}
 
 ```
-
+So the final heapSort function is 
+```cpp
+void heapSort(int arr[], int n){
+	
+	for (int i= n/2 -1 ;i >=0;i-- )
+		heapify(arr, n, i) 
+	
+	for (int i = n - 1; i >= 0; i--){
+		int swap = arr[0];//make temp varieble to swaps
+		arr[0] = arr[i];
+		arr[i] = swap
+		heapify(arr,n,i)
+	}
+	
+}
+```
 
