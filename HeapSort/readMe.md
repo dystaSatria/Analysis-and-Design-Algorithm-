@@ -57,9 +57,14 @@ for (int i = n - 1; i >= 0; i--){
 	}
 
 ```
-*tips extra for descending pattern:
+*tips extra for ascending pattern:
 ```cpp
-
+for (int i = n - 1; i >= 0; i--) {
+        int temp = arr[0];
+        arr[0] = arr[i];
+        arr[i] = temp;
+        heap(arr, i, 0);
+    }
 ```
 
 So the final heapSort function is 
