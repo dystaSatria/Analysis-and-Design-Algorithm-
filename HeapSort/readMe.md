@@ -37,6 +37,7 @@ Lets say we have it
 
 ```
 Non-leaf nodes are ```10 , 8```.
+
 Nodes are ``` 3, 9, 12 ```.
 
 * 
