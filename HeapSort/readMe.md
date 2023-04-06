@@ -55,7 +55,6 @@ for (int i = n - 1; i >= 0; i--){
 		arr[i] = swap
 		heap(arr,n,i)
 	}
-
 ```
 *tips extra for ascending pattern:
 ```cpp
