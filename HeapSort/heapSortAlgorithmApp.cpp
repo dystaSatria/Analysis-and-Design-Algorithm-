@@ -1,5 +1,5 @@
 #include <stdio.h>
-//DEscendi
+
 void heap(int arr[], int n, int i)
 {
 	int biggest = i;
