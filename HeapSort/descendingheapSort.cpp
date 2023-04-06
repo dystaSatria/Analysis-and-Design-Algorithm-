@@ -1,5 +1,5 @@
 #include <stdio.h>
-//DEscending Heapsort
+//DEscending Heapsor
 void heapify(int arr[], int n, int i)
 {
 	int biggest = i;
