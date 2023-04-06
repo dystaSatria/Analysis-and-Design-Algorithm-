@@ -78,7 +78,7 @@ void heapSort(int arr[], int n){
 		int swap = arr[0];//make temp varieble to swaps
 		arr[0] = arr[i];
 		arr[i] = swap
-		heapify(arr,n,i)
+		heap(arr,n,i)
 	}
 	
 }
