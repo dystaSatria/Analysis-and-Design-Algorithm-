@@ -1,4 +1,4 @@
-# Perform basic timSort
+# Perform basic timSo
 MIN_MERGE = 32
 
 
