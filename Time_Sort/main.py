@@ -1,4 +1,4 @@
-# Perf
+# Per
 MIN_MERGE = 32
 
 
