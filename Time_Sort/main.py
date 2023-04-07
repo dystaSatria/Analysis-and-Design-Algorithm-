@@ -1,4 +1,4 @@
-# Per
+# Pe
 MIN_MERGE = 32
 
 
