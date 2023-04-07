@@ -1,4 +1,4 @@
-# Perform basic t
+# Perform basi
 MIN_MERGE = 32
 
 
