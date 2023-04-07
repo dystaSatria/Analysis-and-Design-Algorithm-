@@ -1,4 +1,4 @@
-# Perfo
+# Perf
 MIN_MERGE = 32
 
 
