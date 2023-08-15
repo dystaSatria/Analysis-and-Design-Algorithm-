@@ -1,0 +1,7 @@
+print 1 .. 100
+
+print "Fizz" if divisible by 3
+
+print "Buzz " if divisible by 5
+
+print "Fizz buzz " if divisible by 3 and 5
